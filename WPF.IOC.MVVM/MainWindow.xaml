@@ -1,0 +1,10 @@
+﻿<Window x:Class="WPF.IOC.MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:userControls="clr-namespace:WPF.IOC.MVVM.UserControls"
+        Title="MainWindow" Height="350" Width="525"
+        >
+    <Grid>
+        <userControls:MainUserControl x:Name="UxMain"></userControls:MainUserControl>
+    </Grid>
+</Window>
